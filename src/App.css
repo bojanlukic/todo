@@ -1,0 +1,52 @@
+.App {
+  margin-left: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title {
+  text-align: center;
+}
+
+span {
+  color: rgb(9, 158, 9);
+}
+
+.taskButton {
+  background-color: rgb(23, 175, 23);
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  font-size: 12px;
+  font-weight: 600;
+
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+
+
+}
+
+.container>div {
+  width: 450px;
+  text-align: center;
+  font-weight: 900;
+
+}
+
+.container2 {
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.container2>div {
+  background-color: rgb(204, 204, 204);
+  border: none;
+  height: 70%;
+  text-align: center;
+  width: 450px;
+  font-weight: 700;
+}
