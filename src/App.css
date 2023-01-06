@@ -1,5 +1,5 @@
 .App {
-  margin-left: 30px;
+  padding: 0 30px 0 30px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -8,16 +8,17 @@
 }
 
 span {
-  color: rgb(9, 158, 9);
+  color: mediumseagreen;
 }
 
-.taskButton {
-  background-color: rgb(23, 175, 23);
+.btnAddTask {
+  background-color: mediumseagreen;
   color: white;
   border: none;
   padding: 8px 14px;
   font-size: 12px;
   font-weight: 600;
+  border-radius: 5px;
 
 }
 
@@ -29,10 +30,11 @@ span {
 
 }
 
-.container>div {
-  width: 450px;
+.container-name {
+  width: 420px;
   text-align: center;
   font-weight: 900;
+
 
 }
 
@@ -42,11 +44,48 @@ span {
   height: 100vh;
 }
 
-.container2>div {
+.section {
   background-color: rgb(204, 204, 204);
   border: none;
   height: 70%;
   text-align: center;
-  width: 450px;
+  width: 420px;
   font-weight: 700;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.buttonsModal {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.buttonsAddSave {
+  background-color: white;
+  color: mediumseagreen;
+  border: 2px solid white;
+  padding: 6px 11px;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.task {
+  color: white;
+  background-color: mediumseagreen;
+  padding: 18px;
+  margin: 5px;
+}
+
+.task-title {
+  text-align: center;
+
 }

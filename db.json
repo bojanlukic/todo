@@ -1,0 +1,32 @@
+{
+  "task": [
+    {
+      "title": "Uradi zadatak",
+      "description": "aaa",
+      "status": "todo",
+      "user": "user1",
+      "id": 1
+    },
+    {
+      "title": "Idi u prodavnicu",
+      "description": "Kupovina",
+      "status": "inProgress",
+      "user": "user2",
+      "id": 2
+    },
+    {
+      "title": "Idi na trening",
+      "description": "Kardioo",
+      "status": "done",
+      "user": "user3",
+      "id": 3
+    },
+    {
+      "title": "Igraj tenis",
+      "description": "",
+      "status": "inProgress",
+      "user": "user2",
+      "id": 4
+    }
+  ]
+}
