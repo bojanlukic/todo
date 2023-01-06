@@ -1,8 +1,5 @@
 # To-do 
 
-# MY README
-
-
 ## 1) How to install JSON SERVER ?
 
 npm install -g json-server
